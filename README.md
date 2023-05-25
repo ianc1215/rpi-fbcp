@@ -1,10 +1,19 @@
 Raspberry Pi Framebuffer Copy
 =============================
-This program used for copy primary framebuffer to secondary framebuffer (eg. FBTFT). It require lastest raspberry pi firmware (> 2013-07-11) to working properly.
+This program used for copy primary framebuffer to secondary framebuffer (eg. FBTFT). It require lastest raspberry pi firmware to working properly.
 
 Tested on Raspberry Pi 4B
 ========================
-2023-05-25-raspbian-bullseye
+BOOTLOADER: up to date
+   CURRENT: Wed 11 Jan 17:40:52 UTC 2023 (1673458852)
+    LATEST: Wed 11 Jan 17:40:52 UTC 2023 (1673458852)
+   RELEASE: default (/lib/firmware/raspberrypi/bootloader/default)
+            Use raspi-config to change the release.
+
+  VL805_FW: Dedicated VL805 EEPROM
+     VL805: up to date
+   CURRENT: 000138c0
+    LATEST: 000138c0
 
 
 Requirement
